@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesS.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Maria Paula's Website</h1>
+      <nav>
+          <a href="index.html">Profile</a>
+          <a href="MarkToGrade.html">Grade Calculator</a>
+          <a href="staff.html">Staff</a>
+          <a href="weather.html">Weather</a>
+      </nav>
+  </header>
+  <h2>Staff</h2>
+  <div id="container">
+      <div class="button-container">
+          <button id="sortByName">Sort by Name</button>
+          <button id="sortBySalary">Sort by Salary</button>
+      </div>
+      <table id="employeeTable">
+          <thead>
+              <tr>
+                  <th>Name</th>
+                  <th>Position</th>
+                  <th>Location</th>
+                  <th>ID</th>
+                  <th>Date</th>
+                  <th>Salary</th>
+              </tr>
+          </thead>
+          <tbody class="cardContainer"></tbody>
+      </table>
+  </div>
+  <footer>
+      <p>&copy; Maria Paula Mora | <span id="currentDate"></span></p>
+  </footer>
+  <script src="script2.js"></script>
+</body>
+</html>
